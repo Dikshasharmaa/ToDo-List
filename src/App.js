@@ -1,11 +1,12 @@
 import './App.css';
 import Header from './MyComponents/Header';
 import { ToDos}  from './MyComponents/ToDos';
-import  { todo}  from './MyComponents/todo items';
+import { todoItems } from './MyComponents/todoItems';
 import  { Footer}  from './MyComponents/Footer';
+import { useState } from 'react';
 
 function App() {
-  let todo = [
+  const[todos,settodos] = useState([
     {
       sno :1,
       title : "Complete your Passion project",
@@ -21,12 +22,15 @@ function App() {
       title : "Do revision for your Quiz",
       description : "Do revise some concepts for your tommorow's quiz"
     },
-  ]
+  ])
+
+  // const listItems = todos.map((todo) => {
+  //   <li>{todo}</li>
+  // })
   return (
     <>
-    <Header title="MyToDoList" searchBar={true}></Header>
-    <ToDos todo = {todo}></ToDos>
-    <todo></todo>
+    <Header title= "MyToDoList" searchBar={true}/>
+    <ToDos todos = {todos}></ToDos>
     <Footer></Footer>
     </>
   );

@@ -28,6 +28,11 @@ export default function Header(props) {
   </nav></div>
   )
 }
+// Header.defaultprops = {
+//   title: "your title here",
+//   //searchBar: true
+
+// }
 Header.propTypes = {
     title: PropTypes.string,
     searchBar: PropTypes.bool
