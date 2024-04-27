@@ -10,7 +10,6 @@ export const ToDos = ({todos,onDelete}) => {
           <button className='btn btn-sm btn-danger'onClick ={()=>{onDelete(item)}}>Delete </button>
         </div>))
         }
-      
 
         </div>
   );
