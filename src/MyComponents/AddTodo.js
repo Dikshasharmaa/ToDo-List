@@ -9,7 +9,12 @@ export const AddTodo = ({addTodo}) => {
         if(!title || !description){
             alert("Title or description can not be blank");
         }
-        addTodo(title,description);
+        else{
+            addTodo(title,description);
+            settile("");
+            setdescription("");
+        }
+        
 
     }
   return (
@@ -24,7 +29,7 @@ export const AddTodo = ({addTodo}) => {
       <label htmlFor="description" className="form-label">Description</label>
       <input type="text" value={description} onChange={(e)=>{setdescription(e.target.value)}} className="form-control" id="description"/>
     </div>
-    <button type="submit" className="btn btn-sm btn-success">Add</button>
+    <button type="submit" className="btn btn-sm btn-success">Add</button> <hr></hr>
   </form></div>
   )
 }
