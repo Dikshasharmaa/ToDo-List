@@ -1,3 +1,11 @@
+**TO-Do Application**
+
+**Description**: This application is a small to-do list app which is created using React. This is designed to add the task with description and designed to delete it after it's done.
+<img width="1710" alt="Screenshot 2024-08-26 at 2 58 25 PM" src="https://github.com/user-attachments/assets/dafdb4b1-09da-4b87-8634-5b4f98a8ef7e">
+
+<img width="1710" alt="Screenshot 2024-08-26 at 2 58 12 PM" src="https://github.com/user-attachments/assets/9cd0d473-8d7a-433b-8682-7cb8459f7723">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
