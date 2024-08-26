@@ -28,11 +28,6 @@ export default function Header(props) {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="About.js">
-                  About
-                </a>
-              </li>
             </ul>
             {props.searchBar ? (
               <form className="d-flex" role="search">
